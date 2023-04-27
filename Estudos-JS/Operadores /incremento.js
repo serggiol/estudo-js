@@ -13,6 +13,16 @@ console.log(x) // 4
 x++ //Adiciona um
 console.log(x) // 5
 
+let i = 0;
+console.log(++i);  // 1
+console.log(i);    // 1
+// a expressão "++i" é usada para incrementar o valor de "i" em 1 antes de ser exibido no console
+
+
+let i = 0;
+console.log(i++);  // Saída: 0
+console.log(i);    // Saída: 1
+// a expressão "i++" é usada para retornar o valor atual de "i" (0) antes do incremento ocorrer
 
 for(let i = 0; i < 5; i++) {
     console.log(i);
