@@ -1,6 +1,5 @@
 function verificar() {
-  var nacionalidade = document.getElementById("nacionalidade");
-  var nacionalidade = nacionalidade.value;
+  var nacionalidade = document.getElementById("nacionalidade").value;
   var exibir = document.getElementById("exibir");
 
   if (nacionalidade == "Brasil") {
